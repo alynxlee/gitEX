@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <title>formEx2</title>
+  </head>
+
+  <body>
+    <h1>form 연습 2</h1>
+
+    <table border="1">
+      <caption>실습 예제</caption>
+      <thead>
+        <tr>
+          <th><label for="shool_text">학교</label></th>
+          <td colspan="2"><input type="text" id="shool_text"></td>
+          <td><input type="submit" name="school" id="school" value="학교 찾기"></td>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <th><label for="grade">담당학년</label></th>
+          <td colspan="3">
+            <select name="grade" id="grade">
+              <option value="-" selected>-</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+            </select>
+            학년
+            <select name="class" id="class">
+              <option value="-" selected>-</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>              
+            </select>반
+          </td>
+
+        </tr>
+
+        <tr>
+          <th><label for="phoneNum">학교전화</label></th>
+          <td>
+            <select name="phone_number" id="phoneNum">
+              <option value="지역번호" selected>지역번호</option>
+              <option value="02">02</option>
+              <option value="031">031</option>
+              <option value="032">032</option>
+              <option value="033">033</option>
+              <option value="051">051</option>
+              <option value="052">052</option>
+              <option value="053">031</option>
+              <option value="031">031</option>
+              <option value="031">031</option>
+              <option value="031">031</option>              
+          </select>
+          </td>
+          <td>-</td>
+          <td><input type="text" name="number1" id="num1"></td>
+        </tr>
+
+        <tr>
+          <th><label for="num2">휴대전화</label></th>
+          <td>010
+          </td>
+          <td>-</td>
+          <td><input type="text" name="number2" id="num2"></td>
+        </tr>
+
+        <tr>
+          <th rowspan="3">교사인증</th>
+          <td colspan="3"><input type="file" name="user_file" id="file"></td>
+        </tr>
+        
+        <tr>
+          <td colspan="3">* 교사 인증은 교육 행정 정보시스템에 로그인한 다음 화면캡쳐해서 첨부해주시면 됩니다.</td>
+        </tr>
+
+        <tr>
+          <td colspan="3"><a href="#">[{&lt;자세한 방법 보기&gt;}]</a></td>
+        </tr>
+
+        <tr>
+          <th rowspan="2"><label for="introduce">간단한 인사 및 소개</label></th>
+          <td colspan="3"><textarea name="txtBox" placeholder="이 곳에 작성하세요" id="introduce"></textarea></td>
+        </tr>
+
+        <tr>
+          <td colspan="3">간단한 인사 및 소개를 남겨주시면 교내 사랑방 게시판에 자동 등록되어집니다.</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
