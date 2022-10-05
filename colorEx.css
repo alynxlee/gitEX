@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+body {
+  background-color: #3c2317;
+}
+h1 {
+  background-color: orange;
+}
+#title1 {
+  color: aliceblue;
+}
+#title2 {
+  color: #349
+}
+#title3 {
+  color: #985820
+}
+#title4 {
+  color: #e87
+}
