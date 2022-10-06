@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+body {
+  font-family: '돋움', sans-serif;
+}
+
+#txt1 {
+  font-weight: bold;
+  font-size: 14px;
+  color: blue;
+}
+
+#txt2 {
+  font-family: '굴림', sans-serif;
+  font-style: italic;
+  color: #E8334D;
+}
+
+#txt3 {
+  text-decoration: underline;
+  font-size: 12px;
+}
+
+#txt4 {
+  text-indent: 10px;
+  font-size: 15px;
+}
+
+#txt5 {
+  font-weight: bold;
+  line-height: 50px;
+  color: green;
+}
+
+#txt6 {
+  font-weight: bold;
+  text-align: right;
+  text-decoration: underline;
+  font-size: 20px;
+}
