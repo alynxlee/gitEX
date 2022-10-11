@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+body {
+  font-family: '나눔고딕', '맑은 고딕', 돋움, sans-serif;
+  text-align: center;
+}
+div {
+  background-color: rgb(238, 238, 238);
+}
+h1 {
+  background-color: #000;
+  color: #fff;
+  vertical-align: middle;
+  line-height: 1.5;
+}
+.txt01 {
+  line-height: 2;
+}
+.txt02 {
+  color: red;
+  font-size: 14px;
+  line-height: 2;
+}
+#txt03 > a {
+  background-color: darkred;
+  color: #fff;
+  font-size: 20px;
+}
+#txt03 > a:link {
+  text-decoration: none;
+}
+#txt03 > a:hover {
+  text-decoration: line-through;
+}
+h2 {
+  text-decoration: underline;
+  color: rgb(34, 145, 139);
+}
+h3 {
+  text-align: right;
+  background-color: rgb(34, 145, 139);
+  color: #fff;
+  line-height: 1.5;
+}
+section {
+  text-align: left;
+}
+#txt04 {
+  text-align: left;
+}
+figure {
+  text-align: left;
+}
+ul {
+  line-height: 1.5;
+}
+.spring {
+  background-color: orange;
+}
+.fall {
+  background-color: orange;
+}
+ol > li > span {
+  color: red;
+  font-size: 14px;
+}
