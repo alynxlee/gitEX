@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>box 연습</title>
+    <style>
+      body {
+        text-align: center;
+        border: 5px double #000;
+        overflow: auto;
+        min-width: 600px;
+        font-family: '나눔고딕','맑은 고딕',돋움,sans-serif;
+      }
+      .box .img1 {
+        margin: 30px auto 5px;
+      }
+      .box ul {
+        width: 560px;
+        margin: 20px auto;
+        border-top: 2px solid #000;
+        border-bottom: 1px solid #000;
+        padding-left: 0;
+      }
+      .box ul li {
+        display: inline-block;
+        font-weight: bold;
+        font-size: 18px;
+        
+      }
+      .box ul li a {
+        text-decoration: none;
+        color: #000;
+        padding: 10px 30px;
+        display: block;
+        
+      }
+      .box ul li a:hover {
+        color: red;
+      }
+      .box .img2 {
+        width: 600px;
+      }
+      .box .txt1 {
+        background-color: #000;
+        color: #fff;
+        margin: 0 auto 0 485px;
+        width: 120px;
+      }
+      .box .txt2 {
+        width: 450px;
+        margin: 30px auto 100px;
+        line-height: 1.6;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <img src="./images/logo2.gif" alt="the analog specialists" class="img1">
+      <ul>
+        <li><a href="#" class="home">홈</a></li>
+        <li><a href="#">판매제품</a></li>
+        <li><a href="#">수리</a></li>
+        <li><a href="#">연락처</a></li>
+        <li><a href="#">소개</a></li>
+      </ul>
+      <p>
+      <img src="./images/keys.jpg" alt="피아노 광고 배너" class="img2"><br><span class="txt1">피아노 광고 배너</span>
+      </p>
+      <!-- <figure>
+      <img src="./images/keys.jpg" alt="피아노 광고 배너" class="img2">
+      <figcaption>피아노 광고 배너</figcaption>
+      </figure> -->
+      
+      <p class="txt2">클래식 키보드, 특히 fender rhodes, wurlitzer ep200, hohner clavinet의 판매와 수리를 전문으로 합니다.</p>
+    </div>
+  </body>
+</html>

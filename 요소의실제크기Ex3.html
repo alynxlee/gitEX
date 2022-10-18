@@ -18,12 +18,12 @@
         border-bottom: 5px dotted rgb(136, 21, 92);
         border-left: 4px dashed rgb(91, 212, 212);
 
-        word-wrap: break-word;
+        word-wrap: break-word;/* 강제 줄바꿈 */
 
-        /* 줄바꿈 제어 */
+        /* 어절 기준 줄바꿈 제어 */
         word-break: normal;
-        word-break: break-all;/* 영역에 맞춰 강제 줄바꿈. 영어 한정 */
-        word-break: keep-all;/* 영역에 맞춰 강제 줄바꿈. 한글 적용 */
+        word-break: break-all;/* 어절에 맞춰 줄바꿈. 영어 한정 */
+        word-break: keep-all;/* 어절을 유지하며 줄바꿈. 한글 적용 */
       }
     </style>
   </head>
@@ -33,6 +33,6 @@
   <div class="box">
     <p>가로: w150+m0+p(50+50)+b(4+4)=258px</p>
     <p>세로: h200+m(50+0)+p(10+50)+b(10+5)=325px</p>
-    <p>한글입숨한글입숨한글입숨한글입숨한글입숨한글입숨</p>
+    <p>한글입숨한글입숨한글입숨 한글입숨한글입숨한글입숨</p>
   </div>
 </html>
