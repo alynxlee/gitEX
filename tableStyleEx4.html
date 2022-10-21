@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>table style 연습 4</title>
+    <style>
+      
+      h1 {
+        text-align: center;
+      }
+      table {
+        text-align: center;
+        margin: 50px auto;
+        border: 2px solid greenyellow;
+        width: 300px; height: 180px;
+        font-size: 20px;
+      }
+      caption {
+        background-color: greenyellow;
+        border-radius: 20px 20px 0 0;
+        padding: 10px;
+        font-weight: bold;
+      }
+      .container2 {
+        border-collapse: collapse;
+      }
+      .container1 tr td, .container1 tr th {
+        border: 2px dotted greenyellow;
+      }
+      .container2 tr td, .container2 tr th {
+        border: 2px dashed greenyellow;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>table style 연습 4</h1>
+    <table class="container1">
+      <caption>프로축구 경기 일정</caption>
+      <tbody>
+      <tr>
+        <th>울산</th>
+        <td>울산 vs 인천</td>
+      </tr>
+      <tr>
+        <th>부산</th>
+        <td>부산 vs 대전</td>
+      </tr>
+      <tr>
+        <th>서울</th>
+        <td>서울 vs 강원</td>
+      </tr>
+    </tbody>
+    </table>
+  
+    <table  class="container2">
+      <caption>프로축구 경기 일정</caption>
+      <tbody>
+      <tr>
+        <th>울산</th>
+        <td>울산 vs 인천</td>
+      </tr>
+      <tr>
+        <th>부산</th>
+        <td>부산 vs 대전</td>
+      </tr>
+      <tr>
+        <th>서울</th>
+        <td>서울 vs 강원</td>
+      </tr>
+    </tbody>
+    </table>
+  </body>
+</html>
