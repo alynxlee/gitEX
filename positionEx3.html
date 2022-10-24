@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>positionEx3</title>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        position: relative;
+        margin: 0;
+        font-family: 'Permanent Marker';
+        font-weight: bold;
+      }
+      .wrapper {
+        position: fixeD;
+        top: 0; left: 0; right: 0; bottom: 0;
+        
+        
+        width: 400px; height: 30px;
+        line-height: 30px;
+        margin: 0 auto;
+        background-color: #fff;
+        border-radius: 0 0 20px 20px ;
+        border-bottom: 4px solid rgb(39, 39, 104);
+        text-align: center;
+        padding: 0;
+        
+      }
+      .wrapper li {
+        display: inline-block;
+        width: 100px;
+        
+        
+      }
+      .btn1 {
+        background-color: rgb(64, 98, 143);
+      } 
+      .btn2 {
+        background-color: rgb(255, 230, 0);
+      } 
+      .btn3 {
+        background-color: rgb(255, 94, 20);
+      } 
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+      section {
+        height: 770px;
+        text-align: center;
+        padding-top: 200px;
+        font-size: 50px;
+      }
+      .section1 {
+         background-color: rgb(64, 98, 143);
+         text-align: center;
+      }
+      .section2 {
+         background-color:  rgb(255, 230, 0);
+      }
+      .section3 {
+        background-color: rgb(255, 94, 20);
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="wrapper">
+      <li class="btn1"><a href="#sec1">section1</a></li>
+      <li class="btn2"><a href="#sec2">section2</a></li>
+      <li class="btn3"><a href="#sec3">section3</a></li>
+    </ul>
+    <section id="sec1" class="section1">section1</section>
+    <section id="sec2"class="section2">section2</section>
+    <section id="sec3"class="section3">section3</section>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>positionEx1</title>
+    <style>
+      body {
+        width: 400px;
+        margin: 0 auto;
+        font-size: 25px;
+      }
+      .wrapper {
+        background-color: rgb(243, 166, 1);
+        padding: 200px 100px;
+        text-align: center;
+        /* padding-left: 0; */
+        position: relative;
+      }
+      .wrapper .box {
+        display: inline-block;
+        background-color: rgb(136, 75, 32);
+        color: #fff;
+        padding: 30px;
+      }
+      .wrapper .box1 {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+      }
+      .wrapper .box2 {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+      }
+      .wrapper .box3 {
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+      }
+      .wrapper .box4 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="wrapper">
+      <li class="box box1">1</li>
+      <li class="box box2">2</li>
+      <li class="box box3">3</li>
+      <li class="box box4">4</li>
+      <li class="box box5">5</li>      
+    </ul>
+  </body>
+</html>
