@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>floatEx</title>
+    <style>
+      #gnb {
+        list-style: none;
+        width: 610px;
+        padding: 0;
+        margin: 0 auto;
+        border: #000 3px solid;
+        border-radius: 50px;
+        text-align: center;
+      }
+      #gnb li {
+        float: left;
+        border-right: #000 3px solid;
+      } 
+      #gnb li a {
+        text-decoration: none;
+        color: #000;
+        width: 90px;
+        padding: 15px 30px;
+        font-size: 25px;
+        font-weight: bold;
+        display: block;
+      }
+      
+      #gnb li a:hover {
+        
+        background-color: #000;
+        color: #fff;
+      }
+      .clearfix::after {
+        content: '';
+        clear: both;
+        display: block;
+      }
+      #gnb .border {
+        border: none;
+      }
+     
+    </style>
+  </head>
+  <body>
+    <ul id="gnb" class="clearfix">
+      <li><a href="#">메뉴1</a></li>
+      <li><a href="#">메뉴2</a></li>
+      <li><a href="#">메뉴3</a></li>
+      <li class="border"><a href="#">메뉴4</a></li>
+    </ul>
+  </body>
+</html>
