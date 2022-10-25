@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>제목</title>
+    
+    <link rel="stylesheet" href="../common/minireset.min.css">
+    <style>
+      #wrapper {
+        list-style: none;
+        width: 500px; height: 500px;
+        background-color: #ddd;
+        margin: 0 auto;
+        position: relative;
+        top: 50px; left: 0; right: 0;
+      }
+      #wrapper .box {
+        width: 250px; height: 250px;
+        position: absolute;
+        font-size: 25px;
+        font-weight: bold;
+        opacity: 0.7;
+      }
+      #wrapper .box1 {
+        background-color: yellow;
+        z-index: 9999;
+        top: 10px; left: 10px;
+      }
+      #wrapper .box2 {
+        background-color: orange;
+        z-index: 999;
+        top: 50px; left: 50px;
+      }
+      #wrapper .box3 {
+        background-color: darkcyan;
+        z-index: 99;
+        top: 90px; left: 90px;
+      }
+      #wrapper .box4 {
+        background-color: darkred;
+        z-index: 9;
+        top: 130px; left: 130px;
+      }
+    </style>
+  </head>
+  <body>
+    <ul id="wrapper">
+      <li class="box box1">box1</li>
+      <li class="box box2">box2</li>
+      <li class="box box3">box3</li>
+      <li class="box box4">box4</li>
+    </ul>
+  </body>
+</html>
